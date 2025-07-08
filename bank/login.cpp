@@ -6,6 +6,7 @@ login::login(QWidget *parent)
     , ui(new Ui::login)
 {
     ui->setupUi(this);
+    std::cout <<"hi";
 }
 
 login::~login()
